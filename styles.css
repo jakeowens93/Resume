@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: linear-gradient(180deg, rgb(219, 219, 219), rgb(167, 185, 167));
 }
 /* Link Styles */
 
@@ -70,23 +70,24 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 2px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(deg);
+  transform: scale(1.2);
 }
 .tag {
   background-color: #efefef;
   color: black;
   padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
   background-color: #222;
-  color: rgb(235, 235, 183);
+  color: white;
 }
 .card {
   margin: 30px;
@@ -99,7 +100,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #136910;
+  border-color: #3e532d;;
 }
 
 ul.skills {
@@ -110,14 +111,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #3e532d;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #1e3b79;
 }
 
 footer {
